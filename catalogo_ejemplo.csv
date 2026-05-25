@@ -1,0 +1,6 @@
+id,nombre,categoria,cantidad,ubicacion,precioUnitario,fechaIngreso
+A001,Filtro de aceite,Motor,12,Estante A1,145.50,2026-05-20
+A002,Bujía iridium,Encendido,0,Estante B2,210.00,2026-05-20
+A003,Balata delantera,Frenos,8,Estante C1,680.00,2026-05-20
+A004,Aceite 5W30,Lubricantes,25,Estante A3,195.00,2026-05-20
+A005,Sensor oxígeno,Electrónica,3,Vitrina 1,950.00,2026-05-20

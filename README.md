@@ -10,6 +10,12 @@ Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nue
 - Menú principal Swing.
 - Base de documentación técnica.
 
+### Módulo de modelo y persistencia
+- Entidad `clsArticulo`.
+- Persistencia en `InventarioMecanica.txt`.
+- Importación desde CSV.
+- Lógica CRUD y métricas de inventario.
+
 ## Arquitectura general identificada
 - **Presentación:** Java Swing (`JFrame`, formularios y tabla).
 - **Dominio:** entidad `clsArticulo`.
@@ -32,6 +38,19 @@ Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nue
 
 ## Estructura de documentación
 - `docs/modulo-base.md`
+- `docs/modulo-modelo-persistencia.md`
+
+## Formato de persistencia
+Cada registro se almacena así:
+
+```text
+id|nombre|categoria|cantidad|ubicacion|precioUnitario|fechaIngreso
+```
+
+## CSV esperado
+```csv
+id,nombre,categoria,cantidad,ubicacion,precioUnitario,fechaIngreso
+```
 
 ## Compilación
 ```bash

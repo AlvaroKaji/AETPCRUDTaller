@@ -33,5 +33,11 @@
         <java jar="${dist.jar}" fork="true"/>
     </target>
 
-    <target name="test" depends="compile"/>
+    <target name="test" depends="compile">
+        <java classname="aetp.taller.InventorySmokeTest" fork="false" failonerror="true">
+            <classpath>
+                <pathelement location="${classes.dir}"/>
+            </classpath>
+        </java>
+    </target>
 </project>
