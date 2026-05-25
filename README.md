@@ -1,6 +1,5 @@
 # CRUD AETP - Taller Mecánico
 
-Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nueva carpeta, manteniendo compatibilidad funcional con la versión fuente.
 
 ## Estructura Apache NetBeans
 
