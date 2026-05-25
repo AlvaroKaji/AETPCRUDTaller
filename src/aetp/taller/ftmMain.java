@@ -6,7 +6,6 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class ftmMain extends JFrame {
@@ -37,6 +36,8 @@ public class ftmMain extends JFrame {
     }
 
     private void abrirArticulos() {
-        JOptionPane.showMessageDialog(this, "El módulo de artículos será reconstruido en el siguiente paso.");
+        frmArticulo ventana = new frmArticulo();
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }
 }

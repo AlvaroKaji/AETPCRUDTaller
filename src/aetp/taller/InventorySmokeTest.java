@@ -36,6 +36,14 @@ public class InventorySmokeTest {
             throw new IllegalStateException("No se importó el artículo A002.");
         }
 
+        File pdf = new File("ReporteInventarioAETP-smoke.pdf");
+        Files.deleteIfExists(pdf.toPath());
+        ReportePDF.generar(pdf, gestor.obtenerTodos(), gestor.obtenerValorTotalInventario(),
+                gestor.obtenerTotalPiezas(), gestor.obtenerArticulosConStock(), gestor.obtenerArticulosSinStock());
+        if (!pdf.exists() || pdf.length() == 0) {
+            throw new IllegalStateException("No se generó el PDF de prueba.");
+        }
+
         System.out.println("InventorySmokeTest OK");
     }
 }

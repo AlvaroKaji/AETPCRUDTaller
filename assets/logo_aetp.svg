@@ -1,0 +1,7 @@
+<svg width="400" height="180" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="180" rx="24" fill="#1A2E4D"/>
+  <rect x="28" y="28" width="110" height="110" rx="18" fill="#F29429"/>
+  <text x="48" y="98" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="white">AETP</text>
+  <text x="160" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="white">Taller</text>
+  <text x="160" y="112" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#DDE6F3">Inventario gerencial</text>
+</svg>

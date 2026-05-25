@@ -2,6 +2,17 @@
 
 Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nueva carpeta, manteniendo compatibilidad funcional con la versión fuente.
 
+## Estructura Apache NetBeans
+
+El proyecto está preparado para abrirse como proyecto **Java con Ant en Apache NetBeans** e incluye:
+
+- `nbproject/build-impl.xml`
+- `nbproject/project.properties`
+- `nbproject/project.xml`
+- `nbproject/genfiles.properties`
+- formularios `.form`
+- `build.xml` estilo NetBeans
+
 ## Estado del proyecto
 
 ### Módulo base
@@ -15,6 +26,13 @@ Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nue
 - Persistencia en `InventarioMecanica.txt`.
 - Importación desde CSV.
 - Lógica CRUD y métricas de inventario.
+
+### Módulo de interfaz y reportes
+- Ventana principal Swing.
+- Formulario CRUD de inventario.
+- Tabla con búsqueda y resumen.
+- Generación de reporte PDF gerencial.
+- Recursos gráficos del taller.
 
 ## Arquitectura general identificada
 - **Presentación:** Java Swing (`JFrame`, formularios y tabla).
@@ -39,6 +57,7 @@ Reconstrucción progresiva del proyecto original **AETP-CRUD-Taller** en una nue
 ## Estructura de documentación
 - `docs/modulo-base.md`
 - `docs/modulo-modelo-persistencia.md`
+- `docs/modulo-ui-reportes.md`
 
 ## Formato de persistencia
 Cada registro se almacena así:
