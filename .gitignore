@@ -1,0 +1,5 @@
+build/
+dist/
+InventarioMecanica.txt
+ReporteInventarioAETP-smoke.pdf
+*.class
